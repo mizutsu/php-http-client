@@ -1,0 +1,20 @@
+{
+    "name": "mizutsu/php-http-client",
+    "description": "http client package.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Masaharu Suizu",
+            "email": "ma.suizu@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mizutsu\\Lib\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.18"
+    }
+}
