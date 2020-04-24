@@ -9,11 +9,11 @@ PHP7.4+
 # Reference for this lib
 ## Regarding class method
 | PHP Method          | Param | Return | throw Exception |
-| ------------------- | ------| ---- | :----: |
-| setCurlOptions()    | `array` <br> Regarding details please refer to sample. | `void` | ○ |
-| execute()           | -     | `string` | ○ |
-| getResponseCode()   | -     | `null` \| `int` | - |
-| getResponseDetails()| -     | `array` <br> Regarding details please refer to sample. | ○ |
+| ------------------- | --------| --------------- | :--: |
+| setCurlOptions()    | `array` | `void`          |  ○ |
+| execute()           | -       | `string`        |  ○ |
+| getResponseCode()   | -       | `null` \| `int` |  - |
+| getResponseDetails()| -       | `array`         |  ○ |
 
 
 ## Regarding Exception
