@@ -2,6 +2,7 @@
     "name": "mizutsu/php-http-client",
     "description": "http client package.",
     "type": "library",
+    "homepage": "https://github.com/mizutsu/php-http-client",
     "authors": [
         {
             "name": "Masaharu Suizu",
@@ -13,8 +14,11 @@
             "Mizutsu\\Lib\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "php": ">=7.4.0",
+    },
     "require-dev": {
         "phpstan/phpstan": "^0.12.18"
-    }
+    },
+    "license": "MIT"
 }
