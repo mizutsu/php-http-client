@@ -6,6 +6,19 @@ You can set [options for cURL](https://www.php.net/manual/en/function.curl-setop
 # Requirement
 PHP7.4+
 
+# How to install
+```
+$ composer require mizutsu/php-http-client
+Using version ^1.0 for mizutsu/php-http-client
+./composer.json has been created
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Installing mizutsu/php-http-client (v1.0.0): Loading from cache
+Writing lock file
+Generating autoload files
+```
+
 # Reference for this lib
 ## Regarding class method
 | PHP Method          | Param | Return | throw Exception |
@@ -48,9 +61,11 @@ try {
 ## Sample
 ```
 <?php
-require_once 'C:\Users\mizutsu\Desktop\php-http-client\src\HttpClient.php';
+require_once __DIR__.'/vendor/autoload.php';
 
-$httpClient = new Mizutsu\Lib\HttpClient();
+use Mizutsu\Lib\HttpClient;
+
+$httpClient = new HttpClient();
 
 $auth = sprintf('Authorization : Bearer %s', getenv('QIITA_API_TOKEN'));
 // Regarding structure of $options array, please be same with options array to set to curl_setopt_array(). 

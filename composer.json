@@ -18,7 +18,7 @@
         "php": ">=7.4.0"
     },
     "require-dev": {
-        "phpstan/phpstan": "^0.12.18"
+        "nunomaduro/phpinsights": "^1.14"
     },
     "license": "MIT"
 }
